@@ -1,0 +1,22 @@
+{
+  "name": "khrypton-dev",
+  "version": "1.0.0",
+  "description": "khrypton's website dev env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eigenomarksamy/khrypton-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eigenomarksamy/khrypton-dev/issues"
+  },
+  "homepage": "https://github.com/eigenomarksamy/khrypton-dev#readme",
+  "dependencies": {
+    "angular": "^1.8.2"
+  }
+}

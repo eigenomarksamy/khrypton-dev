@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>khrypton</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your AngularJS Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app.js"></script>
+    <base href="/">
 </head>
-<body>
-  <h1>khrypton</h1>
-
-  <!-- <div class="slideshow">
-    <img class="slide" src="placeholder.jpg" alt="Slide">
-  </div> -->
-
-  <div id="construction-sign">
-    <h2>under construction</h2>
-  </div>
-
-  <div id="tuned-sign">
-    <h2>stay tuned</h2>
-  </div>
+<body ng-app="myApp">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#/home">Home</a></li>
+                <li><a href="#/about">About</a></li>
+                <li><a href="#/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div ng-view></div>
+    </main>
 </body>
 </html>
